@@ -36,13 +36,13 @@ const Header = () => (
       style={{ margin: 0, maxWidth: 960, }}
       >
         <Link
-          to="/contact-us/"
+          to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
         >
-          Contact Us
+          Home
         </Link>
       </h3>
       <h3

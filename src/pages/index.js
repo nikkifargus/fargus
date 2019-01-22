@@ -10,7 +10,7 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, margin: '0 auto' }}>
       <Image />
     </div>
-    <div>
+    <div style={{ textAlign: 'center' }}>
     <FCPText> Managing Motivation in Business </FCPText>
     <FCPText> The Fargus Consulting Partnership (FCP) is a family business. We specialise in measuring and improving motivation in business. Our approach is detailed in our Executive Briefing entitled Measuring and Improving Employee Motivation available here. </FCPText>
     </div>

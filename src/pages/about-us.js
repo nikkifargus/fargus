@@ -1,10 +1,10 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import NHS from "../images/NHS.png"
-
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-import FCPText from '../components/FCPText'
+import React from 'react';
+import { Link } from 'gatsby';
+import deeFargus from "../images/deeFargus.jpeg";
+import peterFargus from "../images/peterFargus.jpeg";
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import FCPText from '../components/FCPText';
 
 const ThirdPage = () => (
   <Layout>
@@ -15,18 +15,23 @@ const ThirdPage = () => (
     }}
     >
       <div style={{ flexBasis: '50%', paddingLeft: '1rem', paddingRight: '1rem' }}>
-        <div style={{width:300, padding:'0.25rem', margin:'0 auto'}}><img alt="logo" src={NHS}/></div>
+        <div style={{ width: '30rem', padding:'0.25rem', margin:'0 auto'}}>
+          <img style={{marginBottom: 0}} alt="logo" src={peterFargus}/>
+        </div>
           <FCPText>
           Peter is a Business Psychologist and Human Resources Consultant.  Previously he has worked for British Airways and PA Management Consultants.
-          He is a Fellow of the Chartered Institute of Personnel and Development; a Fellow of the Institute of Consulting, a Fellow of the Higher Education Academy and an Associate Fellow of the British Psychological Society.
+          He is a Fellow of the Chartered Institute of Personnel and Development; a Fellow of the Institute of Consulting, a Fellow of the Higher Education Academy and an Associate Fellow of the British Psychological Society. To view Peter&#39;s LinkedIn <a href="https://www.linkedin.com/in/pfargus/">Click here</a>
+
         </FCPText>
       </div>
       <div style={{ flexBasis: '50%', paddingLeft: '1rem', paddingRight: '1rem' }}>
-      <div style={{width:300, padding:'0.25rem', margin:'0 auto'}}><img alt="logo" src={NHS}/></div>
+      <div style={{ width: '30rem', padding:'0.25rem', margin:'0 auto'}}>
+        <img style={{ marginBottom: 0 }} alt="logo" src={deeFargus}/>
+      </div>
 
         <FCPText>
           Dee is a Database Analyst. She has worked with Peter on assignments aimed at emphasising ‘employee voice’ through the use of employee opinion surveys. 
-          Previously she has worked for London Transport and PA Computers and Telecommunications.
+          Previously she has worked for London Transport and PA Computers and Telecommunications. To view Dee&#39;s LinkedIn <a href="https://www.linkedin.com/in/dee-fargus-20382b12/">Click here</a>
         </FCPText>
       </div>
     </div>
