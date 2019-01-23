@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from "../images/OPR_Logo.png";
+import LMSkills from "../images/LMSkills.png";
+import OpinionSurveys from "../images/OpionSurveys.png";
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import FCPText from '../components/FCPText'
@@ -26,10 +28,11 @@ const WhatWeDo = () => (
       }}>
         <div style={{
           width: '8rem',
+          height: '8rem',
           padding:'0.25rem',
-          marginRight: '2rem'
+          marginRight: '2rem',
         }}>
-          <img style={{marginBottom: 0}} alt="logo" src={logo}/>
+          <img style={{marginBottom: 0 }} alt="logo" src={OpinionSurveys}/>
         </div>
         <div style={{ margin: 'auto 0' }}>
           <FCPText>
@@ -51,10 +54,11 @@ const WhatWeDo = () => (
 
         <div style={{
           width: '8rem',
+          height: '8rem',
           padding:'0.25rem',
-          marginRight: '2rem'
+          marginRight: '2rem',
         }}>
-          <img style={{marginBottom: 0}} alt="logo" src={logo}/>
+          <img style={{marginBottom: 0}} alt="logo" src={LMSkills}/>
         </div>
         <div style={{ margin: 'auto 0' }}>
           <FCPText>
@@ -76,7 +80,8 @@ const WhatWeDo = () => (
         <div style={{
           width: '8rem',
           padding:'0.25rem',
-          marginRight: '2rem'
+          marginRight: '2rem',
+          height: '8rem',
         }}>
           <img style={{marginBottom: 0}} alt="logo" src={logo}/>
         </div>
