@@ -1,26 +1,35 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import peterFargus from "../images/peterFargus.jpeg";
+import logo from "../images/OPR_Logo.png";
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import FCPText from '../components/FCPText'
 
-const ThirdPage = () => (
+const WhatWeDo = () => (
   <Layout>
     <SEO title="What We Do" />
+    <div style ={{ paddingLeft: '4rem'}}>
     <FCPText>
-      We can help you in the following ways:
-    </FCPText>
-    <FCPText>
+      We can help you in the following ways.
       Please select the service that you are most interested in for more information:
     </FCPText>
     <div>
+    <Link
+      to="/employee-surveys/"
+      style={{
+        color: `#565347`,
+      }}
+    >
       <div style={{
         display: 'flex',
         flexDirection: 'row',
       }}>
-        <div style={{ width: '10rem', padding:'0.25rem' }}>
-          <img style={{marginBottom: 0}} alt="logo" src={peterFargus}/>
+        <div style={{
+          width: '8rem',
+          padding:'0.25rem',
+          marginRight: '2rem'
+        }}>
+          <img style={{marginBottom: 0}} alt="logo" src={logo}/>
         </div>
         <div style={{ margin: 'auto 0' }}>
           <FCPText>
@@ -28,12 +37,24 @@ const ThirdPage = () => (
           </FCPText>
         </div>
       </div>
+      </Link>
+      <Link
+        to="/leadership-skills/"
+        style={{
+          color: `#565347`,
+        }}
+      >
       <div style={{
         display: 'flex',
         flexDirection: 'row',
       }}>
-        <div style={{ width: '10rem', padding:'0.25rem' }}>
-          <img style={{marginBottom: 0}} alt="logo" src={peterFargus}/>
+
+        <div style={{
+          width: '8rem',
+          padding:'0.25rem',
+          marginRight: '2rem'
+        }}>
+          <img style={{marginBottom: 0}} alt="logo" src={logo}/>
         </div>
         <div style={{ margin: 'auto 0' }}>
           <FCPText>
@@ -41,12 +62,23 @@ const ThirdPage = () => (
           </FCPText>
         </div>
       </div>
+      </Link>
+      <Link
+        to="/quality-of-human-capital"
+        style={{
+          color: `#565347`,
+        }}
+      >
       <div style={{
         display: 'flex',
         flexDirection: 'row',
       }}>
-        <div style={{ width: '10rem', padding:'0.25rem' }}>
-          <img style={{marginBottom: 0}} alt="logo" src={peterFargus}/>
+        <div style={{
+          width: '8rem',
+          padding:'0.25rem',
+          marginRight: '2rem'
+        }}>
+          <img style={{marginBottom: 0}} alt="logo" src={logo}/>
         </div>
         <div style={{ margin: 'auto 0' }}>
           <FCPText>
@@ -54,8 +86,11 @@ const ThirdPage = () => (
           </FCPText>
         </div>
       </div>
+      </Link>
+
+    </div>
     </div>
   </Layout>
 )
 
-export default ThirdPage
+export default WhatWeDo

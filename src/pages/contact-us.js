@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import FCPText from '../components/FCPText'
 
-const SecondPage = () => (
+const ContactUs = () => (
   <Layout>
     <SEO title="Contact Us" />
     <FCPText>
@@ -19,4 +19,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default ContactUs

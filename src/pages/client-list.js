@@ -11,7 +11,7 @@ import pwc from "../images/pwc.png"
 import stockport from "../images/stockport.jpg"
 import ukSport from "../images/ukSport.jpg"
 
-const ThirdPage = () => (
+const ClientList = () => (
   <Layout>
     <SEO title="Client List" />
     <div
@@ -41,4 +41,4 @@ const ThirdPage = () => (
   </Layout>
 )
 
-export default ThirdPage
+export default ClientList

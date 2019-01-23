@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import deeFargus from "../images/deeFargus.jpeg";
-import peterFargus from "../images/peterFargus.jpeg";
+import deeFargus from "../images/dee_fargus.png";
+import peterFargus from "../images/peter_fargus.png";
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import FCPText from '../components/FCPText';
 
-const ThirdPage = () => (
+const AboutUs = () => (
   <Layout>
     <SEO title="About Us" />
     <div style={{
@@ -15,7 +15,7 @@ const ThirdPage = () => (
     }}
     >
       <div style={{ flexBasis: '50%', paddingLeft: '1rem', paddingRight: '1rem' }}>
-        <div style={{ width: '30rem', padding:'0.25rem', margin:'0 auto'}}>
+        <div style={{ width: '20rem', padding:'0.25rem', margin:'0 auto'}}>
           <img style={{marginBottom: 0}} alt="logo" src={peterFargus}/>
         </div>
           <FCPText>
@@ -25,7 +25,7 @@ const ThirdPage = () => (
         </FCPText>
       </div>
       <div style={{ flexBasis: '50%', paddingLeft: '1rem', paddingRight: '1rem' }}>
-      <div style={{ width: '30rem', padding:'0.25rem', margin:'0 auto'}}>
+      <div style={{ width: '20rem', padding:'0.25rem', margin:'0 auto'}}>
         <img style={{ marginBottom: 0 }} alt="logo" src={deeFargus}/>
       </div>
 
@@ -38,4 +38,4 @@ const ThirdPage = () => (
   </Layout>
 )
 
-export default ThirdPage
+export default AboutUs
