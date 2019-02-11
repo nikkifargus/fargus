@@ -21,10 +21,10 @@ const ClientList = () => (
         justifyContent: 'center',
       }}
     >
-    <div style={{width:300, padding:'0.25rem', margin:'auto 0'}}><img alt="logo" src={fsa}/></div>
-    <div style={{width:300, padding:'0.25rem', margin:'auto 0'}}><img alt="logo" src={lch}/></div>
-    <div style={{width:300, padding:'0.25rem', margin:'auto 0'}}><img alt="logo" src={myTravel}/></div>
-    <div style={{width:300, padding:'0.25rem', margin:'auto 0'}}><img alt="logo" src={stockport}/></div>
+    <div style={{width:230, padding:'1rem', margin:'auto 0'}}><img alt="logo" src={fsa}/></div>
+    <div style={{width:230, padding:'1rem', margin:'auto 0'}}><img alt="logo" src={lch}/></div>
+    <div style={{width:230, padding:'1rem', margin:'auto 0'}}><img alt="logo" src={myTravel}/></div>
+    <div style={{width:230, padding:'1rem', margin:'auto 0'}}><img alt="logo" src={stockport}/></div>
     </div>
     <div
       style={{
@@ -33,10 +33,10 @@ const ClientList = () => (
         justifyContent: 'center',
       }}
     >
-    <div style={{width:300, padding:'0.25rem', margin:'auto 0'}}><img alt="logo" src={NHS}/></div>
-    <div style={{width:300, padding:'0.25rem', margin:'auto 0'}}><img alt="logo" src={pwc}/></div>
-    <div style={{width:300, padding:'0.25rem', margin:'auto 0'}}><img alt="logo" src={NPS}/></div>
-    <div style={{width:300, padding:'0.25rem', margin:'auto 0'}}><img alt="logo" src={ukSport}/></div>
+    <div style={{width:230, padding:'1rem', margin:'auto 0'}}><img alt="logo" src={NHS}/></div>
+    <div style={{width:230, padding:'1rem', margin:'auto 0'}}><img alt="logo" src={pwc}/></div>
+    <div style={{width:230, padding:'1rem', margin:'auto 0'}}><img alt="logo" src={NPS}/></div>
+    <div style={{width:230, padding:'1rem', margin:'auto 0'}}><img alt="logo" src={ukSport}/></div>
   </div>
   </Layout>
 )

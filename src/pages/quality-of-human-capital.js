@@ -17,6 +17,7 @@ const HumanCapital = () => (
       BACK
       </Link>
     </h4>
+    <div>
     <h4 style={{
       color: `#565347`,
     }}> Assessing the Quality of Human Capital </h4>
@@ -24,26 +25,40 @@ const HumanCapital = () => (
       display: 'flex',
       flexDirection: 'row',
     }}>
-      <div>
+      <div style={{
+        width: '33.33%',
+        justifyContent: 'center',
+        display: 'flex',
+        flexDirection: 'column',
+      }}>
       <FCPText>
-        During strategic planning
+        - During strategic planning
       </FCPText>
       <FCPText>
-        Before transformation
+        - Before transformation
       </FCPText>
       <FCPText>
-        Before mergers and acquisitions
+        - Before mergers and acquisitions
       </FCPText>
       </div>
-      <div><img alt="logo" src={logo}/></div>
+      <div style={{
+        width: '33.33%',
+        textAlign: 'center',
+      }}>
+        <img alt="logo" src={logo}/>
+      </div>
+      <div style={{ width: '33.33%'}}/>
+
     </div>
-    <h4 style={{
+    </div>
+    <h3 style={{
       color: `#565347`,
+      textAlign: 'center'
     }}>
       For more information go to <a style={{
         color: `#565347`,
       }}href="http://www.ourpeoplereview.com">ourpeoplereview.com</a>
-    </h4>
+    </h3>
   </Layout>
 )
 

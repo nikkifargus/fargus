@@ -5,7 +5,7 @@ const FCPText = ({children, style}) => {
   console.log('style', style);
   return (
   <p
-    style={{ color: `#565347` }}
+    style={{ color: `#565347`, fontSize: 20, }}
   >
     {children}
   </p>

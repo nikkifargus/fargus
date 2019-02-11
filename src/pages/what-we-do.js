@@ -10,12 +10,12 @@ import FCPText from '../components/FCPText'
 const WhatWeDo = () => (
   <Layout>
     <SEO title="What We Do" />
-    <div style ={{ paddingLeft: '4rem'}}>
+    <div>
     <FCPText>
-      We can help you in the following ways.
+      We can help you in the following ways.<br/>
       Please select the service that you are most interested in for more information:
     </FCPText>
-    <div>
+    <div style={{ }}>
     <Link
       to="/employee-surveys/"
       style={{
@@ -67,33 +67,34 @@ const WhatWeDo = () => (
         </div>
       </div>
       </Link>
-      <Link
-        to="/quality-of-human-capital"
-        style={{
-          color: `#565347`,
-        }}
-      >
-      <div style={{
-        display: 'flex',
-        flexDirection: 'row',
-      }}>
-        <div style={{
-          width: '8rem',
-          padding:'0.25rem',
-          marginRight: '2rem',
-          height: '8rem',
-        }}>
-          <img style={{marginBottom: 0}} alt="logo" src={logo}/>
-        </div>
-        <div style={{ margin: 'auto 0' }}>
-          <FCPText>
-            We assess the quality of human capital.
-          </FCPText>
-        </div>
-      </div>
-      </Link>
+
 
     </div>
+    <Link
+      to="/quality-of-human-capital"
+      style={{
+        color: `#565347`,
+      }}
+    >
+    <div style={{
+      display: 'flex',
+      flexDirection: 'row',
+    }}>
+      <div style={{
+        width: '8rem',
+        padding:'0.25rem',
+        marginRight: '2rem',
+        height: '8rem',
+      }}>
+        <img style={{marginBottom: 0}} alt="logo" src={logo}/>
+      </div>
+      <div style={{ margin: 'auto 0' }}>
+        <FCPText>
+          We assess the quality of human capital.
+        </FCPText>
+      </div>
+    </div>
+    </Link>
     </div>
   </Layout>
 )
