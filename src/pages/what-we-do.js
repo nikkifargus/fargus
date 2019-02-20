@@ -10,7 +10,13 @@ import FCPText from '../components/FCPText'
 const WhatWeDo = () => (
   <Layout>
     <SEO title="What We Do" />
-    <div>
+    <div
+      style={{
+        // display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+      }}
+    >
     <FCPText>
       We can help you in the following ways.<br/>
       Please select the service that you are most interested in for more information:

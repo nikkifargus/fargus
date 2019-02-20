@@ -8,8 +8,8 @@ const Layout = ({ children }) => (
   <Header/>
   <div
     style={{
-      paddingLeft: `8rem`,
-      paddingRight: `8rem`,
+      paddingLeft: `6rem`,
+      paddingRight: `6rem`,
       flex: 1,
     }}
   >

@@ -7,7 +7,7 @@ const Header = () => (
     style={{
       background: `#999584`,
       marginBottom: `1.45rem`,
-      padding: `1.45rem 8rem`,
+      padding: `1.45rem 1.0875rem`,
       display: 'flex',
       flexDirection: 'row',
     }}
